@@ -1,0 +1,66 @@
+/*Navbar Only*/
+nav{
+    background-color: black;
+    border-bottom: 1mm solid white;
+}
+.navbar-toggler-icon{
+    background-image: url(images/backgrounds/icon.png);
+} 
+a, a:hover{
+    color: white;
+}
+.current{
+    color: rgba(255, 255, 255, 0.623);
+}
+/*End of Navbar Styles*/
+
+/*Homepage Only*/
+.homepage{
+    padding-top: 3cm;
+    padding-bottom: 2.5cm;
+    background-image: url(images/backgrounds/hp-banner.jpg);
+    background-size: cover;
+    max-width: 100%;
+    text-align: left;
+}
+.tagline{
+    background-color: #030f0b75;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    min-width: 80%;
+}
+.tagline p{
+    font-size: 25px;
+    font-style: italic;
+    text-align: right;
+    background-color: transparent;
+}
+.btn-primary, .btn-primary:hover{
+    background-color: #eb7402;
+    color: white;
+    border: none;
+}
+.showcase{
+    border: ridge 3mm #33292d;
+}
+/*End of Homepage styles*/
+body{
+    background-image: url(images/backgrounds/hp-bg.png);
+}
+img{
+    max-width: 100%;
+    width: 500px;
+}
+h2{
+    text-decoration: underline;
+    font-size: 35px;
+}
+.row{
+    padding-top: 4mm;
+    padding-bottom: 4mm;
+}
+footer{
+    font-size: 12px;
+    padding-top: 2mm;
+    padding-bottom: 4mm;
+}
